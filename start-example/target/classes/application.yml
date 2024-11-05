@@ -1,8 +1,7 @@
 spring:
   data:
     mongodb:
-      port: 27017
-      host: localhost
+      uri: mongodb+srv://dnolavo:c2KutMEuFCvodPM3@cluster0.ie36z.mongodb.net/
       database: myDatabase
 logging:
   level:

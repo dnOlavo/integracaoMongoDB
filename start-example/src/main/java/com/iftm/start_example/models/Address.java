@@ -1,16 +1,19 @@
 package com.iftm.start_example.models;
 
-import java.util.Objects;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+@EqualsAndHashCode
 public class Address {
     private String street;
     private int number;
-
-    public Address() {
-    }
-
-    public Address(String street, int number) {
-        this.street = street;
-        this.number = number;
-    }
 }
